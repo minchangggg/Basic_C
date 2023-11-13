@@ -1,6 +1,8 @@
-### MEMORY LAYOUT OF C PROGRAM 
-<img src="https://github.com/minchangggg/Basic_C/assets/125820144/bf240676-debf-45d2-abdd-08e3dcd73283" alt="hehe" width="20" /> ```How C program structure the memory area?```   https://www.scaler.com/topics/c/memory-layout-in-c/
-<img src="https://scaler.com/topics/images/Diagram-for-memory-structure-of-C.webp" alt="meme" width="500" /> 
+<img width="385" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/0adf350d-f3aa-4fb0-b846-c3e45045d90b">
+
+[<img src="https://github.com/minchangggg/Basic_C/assets/125820144/444853d4-ceb8-415a-b050-bd8f9b3bc0a9" alt="hehe" width="20" />] How C program structure the memory area?   https://www.scaler.com/topics/c/memory-layout-in-c/
+<img width="500" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/253645d7-e320-47a7-b433-ff03afaf2e47">
+
 
 **1, Text segment -> Code segment** 
 
