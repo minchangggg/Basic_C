@@ -51,22 +51,7 @@ Ex:
 ```    return 0;                                                                                ```
 
 ```}                                                                                            ```
-
-
-`#include <stdio.h>                                                                          
-
-int global_variable; // Uninitialized global variable stored in the bss segment              
-
-int main() {                                                                                 
-
-    static int static_variable = 0; // Uninitialized static variable stored in bss segment   
-
-    // ...                                                                                   
-
-    return 0;                                                                                
-
-}`                                                                            `
-
+                                                                        
 **4, Heap -> Dynamic Memory Allocation**
 
 + malloc/ calloc/ realloc/ free
@@ -83,6 +68,26 @@ int main() {
 -
 -
 -
+
+***
+
+### Flowchart In C Program
+```Here are some conventional symbols for a basic flowchart```
+
+<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/620287eaa88698331bc3940e_61de99e8171cc6468145551d_flowchart-symbols-800.png" alt="meme" width="300" /> 
+
+```Flowchart Guidelines```
+> Step 1: Start the program.
+>
+> Step 2: Begin Process 1 of the program.
+>
+> Step 3: Check some conditions and take a Decision (“yes” or “no”).
+>
+> Step 4: If the decision is “yes”, proceed to Process 3. If the decision is “no”, proceed to Process 2 and return to Step 2.
+> 
+> Step 5: End of the program.
+
+<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/625d09569181da46d5a8ff53_New%20Flowchart%20(4).png" alt="meme" width="300" /> 
 
 ***
 
@@ -145,6 +150,8 @@ b, The ‘const’ Keyword
 
 ### Chapter 3: Conditional
 
+<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/620239fdd8763fe2a551f490_If-else%20Flowchart.png" alt="meme" width="300" /> 
+
 **Conditional or Ternary Operator (?:)**
 
 **Syntax of Conditional/Ternary Operator**
@@ -174,7 +181,7 @@ It can be visualized into an if-else statement as:
 ### Chapter 4: SWITCH CASE
 **Syntax of switch Statement in C**
 
-```switch(expression) {```
+```switch(expression) {                  ```
 
 ```        case value1: statement_1;     ```
 
@@ -197,6 +204,35 @@ It can be visualized into an if-else statement as:
 *** 
 
 ### Chapter 5: Loop control statements
+> for loop
+>
+> while loop
+> 
+> do-while loop
+
+**1, for loop**
+
+a, Syntax
+
+```for (initialization ; condition ; increment / decrement) {   ```
+
+```  //...                                                      ```
+
+```}                                                            ```
+
+b, Flowchart
+
+<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/623c0c5447c67e81d4ac3f35_for-loop-flowchart.png" alt="meme" width="300" /> 
+
+c, Example
+
+**2, while loop**
+
+<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/623c0c66fad507a80764a3f5_while-loop-flowchart.png" alt="meme" width="300" /> 
+
+**3, do-while loop**
+
+<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/623c0c5447c67e81d4ac3f35_for-loop-flowchart.png" alt="meme" width="300" /> 
 
 ***
 
