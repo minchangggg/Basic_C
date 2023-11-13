@@ -1,69 +1,38 @@
 <img width="385" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/0adf350d-f3aa-4fb0-b846-c3e45045d90b">
 
 [<img src="https://github.com/minchangggg/Basic_C/assets/125820144/444853d4-ceb8-415a-b050-bd8f9b3bc0a9" alt="hehe" width="20" />] How C program structure the memory area?   https://www.scaler.com/topics/c/memory-layout-in-c/
-<img width="500" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/253645d7-e320-47a7-b433-ff03afaf2e47">
+<img width="600" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/f1df255f-ed94-47f5-8850-9ea39d21bd94">
 
 
-**1, Text segment -> Code segment** 
+<img width="275" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/022c1cb6-ae90-482b-9e93-9e0205e7169e">
 
 + Contains executable instructions 
 + Sharable                         
 + Read-only                        
 
-**2, Initialized Data segment -> Data Segment**
+<img width="275" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/83b76c76-3a89-465b-a3ad-efa4f64a7c28">
 
 | Global variables & Static variables | Initialized (≠0) by programmer |
 
 Ex:
-#include<stdio.h>
+<img width="555" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/879a182d-4990-42d1-9b13-51686eca892d">
 
-// global variables stored in the read-write part of initialized data segment 
- 
-int global_var = 50;
 
-char* hello = "Hello World";
-
-// global variables stored in the read-only part of initialized data segment 
-
-const int global_var2 = 30;
-
-int main() {
-
-    static int a = 10; // static variable stored in initialized data segment
-    
-    // ...
-    
-    return 0;
-    
-}
-
-**3,  Uninitialized Data segment -> BSS segment**
+<img width="275" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/9b7a668f-bdf8-4ef4-aee0-c54fe0713601">
 
 | Global variables & Static variables | Uninitialized or Initialized (=0) by programmer |
 
 Ex:
+<img width="556" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/300dcabf-ad5f-42fa-b261-cbae175fc4ce">
 
-```#include <stdio.h>                                                                           ```
-
-```int global_variable; // Uninitialized global variable stored in the bss segment              ```
-
-```int main() {                                                                                 ```
-
-```    static int static_variable = 0; // Uninitialized static variable stored in bss segment   ```
-
-```    // ...                                                                                   ```
-
-```    return 0;                                                                                ```
-
-```}                                                                                            ```
-                                                                        
-**4, Heap -> Dynamic Memory Allocation**
+                                                                                                                                 
+<img width="275" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/41ca0f62-4f37-4a2e-8954-a2656ab66d00"> ***-> Dynamic Memory Allocation***
 
 + malloc/ calloc/ realloc/ free
 + new/ delete
 > Forget to deallocate memory in Heap -> cause Memory leak
 
-**5, Stack -> Automatic Variable Storage**
+<img width="275" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/dfab2f7c-6509-497c-939f-5e68f43566af"> ***-> Automatic Variable Storage***
 
 <img src="https://scaler.com/topics/images/stack-segment.webp" alt="meme" width="300" /> 
 
