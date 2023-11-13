@@ -1,7 +1,6 @@
 ### MEMORY LAYOUT OF C PROGRAM 
-<img src="https://github.com/minchangggg/Basic_C/assets/125820144/5184976f-8c41-46ec-b044-072d09963084" alt="hehe" width="20" /> ```How C program structure the memory area?```
-
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/memoryLayoutC.jpg" alt="meme" width="300" /> 
+<img src="https://github.com/minchangggg/Basic_C/assets/125820144/bf240676-debf-45d2-abdd-08e3dcd73283" alt="hehe" width="20" /> ```How C program structure the memory area?```   https://www.scaler.com/topics/c/memory-layout-in-c/
+<img src="https://scaler.com/topics/images/Diagram-for-memory-structure-of-C.webp" alt="meme" width="500" /> 
 
 **1, Text segment -> Code segment** 
 
@@ -16,20 +15,24 @@
 Ex:
 #include<stdio.h>
 
-/* global variables stored in the read-write part of
-   initialized data segment
- */
+// global variables stored in the read-write part of initialized data segment 
+ 
 int global_var = 50;
+
 char* hello = "Hello World";
-/* global variables stored in the read-only part of
-   initialized data segment
- */
+
+// global variables stored in the read-only part of initialized data segment 
+
 const int global_var2 = 30;
 
 int main() {
+
     static int a = 10; // static variable stored in initialized data segment
+    
     // ...
+    
     return 0;
+    
 }
 
 **3,  Uninitialized Data segment -> BSS segment**
@@ -60,14 +63,17 @@ Ex:
 
 **5, Stack -> Automatic Variable Storage**
 
-| LIFO structure
+<img src="https://scaler.com/topics/images/stack-segment.webp" alt="meme" width="300" /> 
+
+| LIFO structure (Last In First Out)
+
+| Grows in the direction opposite to heap
+
+| Function frame (Stack segment stores the value of local variables and values of parameters passed to a function along with some additional information like the instruction's return address, which is to be executed after a function call )
+
+
 
 **CONCLUSION**
-
--
--
--
--
 
 ***
 
