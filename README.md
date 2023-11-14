@@ -117,20 +117,64 @@ b, The ‘const’ Keyword
 | Character     | scanf("%c", &charVariable);   | printf("%c", charVariable);              | 
 
 
-
 ***
 
-### Chapter 2: Function
+### Chapter 2: Operator
+https://www.freecodecamp.org/news/c-operator-logic-operators-in-c-programming/
 
-*** 
+Operators fall into one of three categories          
 
-### Chapter 3: Conditional
+<img width="590" alt="image" src="https://github.com/minchangggg/Basic_C/assets/125820144/8810bc5d-204a-4718-838e-2956bafc9f36">
 
-<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/620239fdd8763fe2a551f490_If-else%20Flowchart.png" alt="meme" width="300" /> 
+**1, Unary operators**
 
-**Conditional or Ternary Operator (?:)**
+a, Unary minus ( – ), which changes the sign of its argument.
 
-**Syntax of Conditional/Ternary Operator**
+A positive number becomes negative, and a negative number becomes positive.
+
+         int a = 10;
+         int b = -a;  // b = -10
+
+b, Increment ( ++ ), which increments the value of the operand by 1.
+
+prefix increment
+
+postfix increment
+
+c, Decrement ( -- ), which decrements the value of the operand by 1.
+
+prefix increment
+
+postfix increment
+
+d, NOT ( ! )
+
+Logical operators like the NOT(!) operator. This operator reverses the logical value of the operand – it changes true to false and false to true.
+
+e, Addressof operator ( & )
+
+f, sizeof()
+
+**2, Binary operators**
+
+a, Arithmetic operators (+, -, *, /, %)
+> These operators perform mathematical calculations on numerical data such as addition, subtraction, multiplication, division, and finding the remainder.
+
+b, Equality/Relational operators (==, !=, >, <, >=, <=)
+> These operators compare two values and determine if one operand is greater than, less than, equal to, or not equal to the other operand.
+
+c, Logical/Conditional operators 
+> Such as the AND(&&) and OR(||) operators.
+
+d, Bitwise operators ((&, |, ^, <<, >>)
+> Which treat data items as a sequence of bits (that is, 0s and 1s).
+
+e, Assignment operators (=, +=, -=, *=, /=, %=)
+> Which assign a specific value to a variable.
+
+**3, Ternary operators (?:)**
+
+**Syntax of Ternary Operator**
 
 ```variable = Expression1 ? Expression2 : Expression3;```
 
@@ -140,17 +184,25 @@ Or ```(condition) ? (variable = Expression2) : (variable = Expression3);```
 
 It can be visualized into an if-else statement as: 
 
-```if(Expression1) {```
+      if(Expression1) {
+      
+          variable = Expression2;
+      
+      }
+      
+      else {
+      
+          variable = Expression3;
+      
+      }
 
-```    variable = Expression2;```
 
-```}```
+*** 
 
-```else {```
+### Chapter 3: Conditional
 
-```    variable = Expression3;```
+<img src="https://assets-global.website-files.com/6184b461a39ff1011f8c0582/620239fdd8763fe2a551f490_If-else%20Flowchart.png" alt="meme" width="300" /> 
 
-```}```
 
 *** 
 
