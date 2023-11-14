@@ -36,12 +36,11 @@ Ex:
 
 <img src="https://scaler.com/topics/images/stack-segment.webp" alt="meme" width="300" /> 
 
-| LIFO structure (Last In First Out)
+| LIFO structure (Last In First Out) 
 
 | Grows in the direction opposite to heap
 
-| Function frame (Stack segment stores the value of local variables and values of parameters passed to a function along with some additional information like the instruction's return address, which is to be executed after a function call )
-
+| Function frame  
 
 
 **CONCLUSION**
