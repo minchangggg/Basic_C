@@ -1,3 +1,5 @@
+// Nhập vào ngày tháng năm, xuất ra thứ của hôm đó
+
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -47,7 +49,6 @@ void input (TIME* time) {
         if (checkTime(*time) == false) {
             printf("The information is invalid. Please re-enter.");
         }
-
         else ok = false;
     } while (ok);
 }
