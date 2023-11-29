@@ -265,14 +265,46 @@ c, Example
 ***
 
 ### Chapter 6: TYPEDEF
+> The typedef is a keyword that is used to provide existing data types with a new name. The C typedef keyword is used to redefine the name of already existing data types.
+
+**1, C typedef Syntax**                  
+
+**typedef existing_name alias_name;**
+
+**2, Example**
+
+      #include <stdio.h>
+      typedef long long ll; // defining an alias using typedef
+      
+      int main() {
+          ll var = 20; // using typedef name to declare variable
+          printf("%ld", var);
+          return 0;
+      }
 
 *** 
 
 ### Chapter 7: STRUCT
+> Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure is known as a member of the structure.
 
 *** 
 
 ### Chapter 8: ENUM
+C Enumeration (enum)
+
+> An enum is a special type that represents a group of constants (unchangeable values).
+
+> To create an enum, use the enum keyword, followed by the name of the enum, and separate the enum items with a comma:
+                enum Level {
+                  LOW,
+                  MEDIUM,
+                  HIGH
+                };
+
+> Now that you have created an enum variable (myVar), you can assign a value to it.
+> The assigned value must be one of the items inside the enum (LOW, MEDIUM or HIGH):
+
+>                enum Level myVar = MEDIUM;
 
 *** 
 
@@ -292,4 +324,5 @@ c, Example
 
 *** 
 
-### Chapter 10: MẢNG
+### Chapter 10: ARRAY
+
