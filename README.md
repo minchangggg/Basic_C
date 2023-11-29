@@ -295,6 +295,7 @@ C Enumeration (enum)
 > An enum is a special type that represents a group of constants (unchangeable values).
 
 > To create an enum, use the enum keyword, followed by the name of the enum, and separate the enum items with a comma:
+
                 enum Level {
                   LOW,
                   MEDIUM,
